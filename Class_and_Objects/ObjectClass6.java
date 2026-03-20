@@ -1,4 +1,4 @@
-/*clone() mrthod:-
+/*clone() method:-
 It return the new object as exactly same as the previous old object*/
 
 import java.util.Date;
