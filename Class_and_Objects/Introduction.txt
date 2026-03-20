@@ -1,0 +1,59 @@
+/*Class and Objects:-
+class is a blueprint or template to create object.
+Class if for a visualization and object is for the feel.
+Generally class contains a variables and functions.
+              |
+              |
+              V
+local variables, instance variables,class variables,constructors,member functions
+Designing the Schema----->required while developing projects.
+1.Entities  2.Attributes
+
+**Object in java**
+1.State of an object stored in the variable
+2.Behaviour of an object inside the function 
+--class is ageneric thing and objecrt is specific thing.
+--An instance of a class.
+--Always object point to the object. Through the address it access the value(similar to the pointer).
+--Object gets the memmory in heap area.
+-- Because While creating object new keyword is used.
+
+*Diffrent ways to create an object in java*
+--new keyword:- 
+        ex.:- Classname obj = new Classname()
+--newInstance() Method:-
+        1.clone() method
+        2.factory() method etc.
+
+--Anonymous object:-
+    . Anonymus means nameless
+    . An object that have no refernce is known as anonymous object.
+
+**MEMBERS OF CLASS IN JAVA:-**
+1.Data Members---->Variables
+2.Member Function---->Methods
+
+member variables in a class are called fields.
+variables in amethod or block of code called local var.
+variables in method are called parameters.
+
+**Access Specifiers**
+1.Private --->access only in this class.
+2.Protected--->accessible only in this package, accessible in all subclass of this class.
+3.Public--->Accessible everywhere this class is available.
+4.Package--->Accessiblee only in this package.
+
+**Methods in java**  ---->(collection of statements, used to perform an operations)
+creating Method:-
+syntax => Example:- 
+class test {
+public static int display(int a,int b){
+//body
+    }
+}
+
+Procedures don't return any value.
+Function return value.
+
+
+*/
