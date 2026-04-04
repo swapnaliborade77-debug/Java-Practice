@@ -1,0 +1,38 @@
+/*Arrays:-Representation of the group of elements which are of the same type'
+Array has a fixed size and elements are accessed by their index.
+It has a some limitations so to  overcome this limitations we have a collection framework.
+Collections are growable in nature.---->based on requirements we can increase or decrease the size of the collection.
+So hence in the memory point of view it is recommended t use collections.
+Collection can hold both heterogeneous and homogeneous objects.
+Every collection class is implemented by using standard data structure.
+
+Collections:-
+-Java collection refers to a single units of objects.
+you can perform all the operations on data such as searching,sorting,insertion,manipulation,deletion,etc.by java collections.
+
+A java collecion is a framework that provides an architecture to store and manipulate the group of objects.
+
+A java collection framework includes the following:
+1)Interfaces   
+2)classes
+3)Algorithms  
+
+Collection framework Hierarchy:
+
+                    Iterable
+                       ^
+                       |                                *Interfaces*
+                    Collection
+                       |
+    __________________________________________
+    |                   |                    |          *Interfaces*
+    |                   |                    |
+    List               Queue                Set 
+    |__ArrayList        |__PriorityQueue    |   |__HashSet
+    |__LinkedList       |                   |   |__LinkedHashSet
+    |__vector           |                   |   
+    |____|          Deque                 SoretedSet    *Interfaces*
+    |   Stack          |                    |
+                      ArrayDeque           TreeSet
+
+*/
