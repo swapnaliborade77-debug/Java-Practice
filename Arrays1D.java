@@ -29,7 +29,7 @@ public class Arrays1D{
 
         System.out.println(Arrays.binarySearch(arr,key));*/
 
-        //example:- 
+        
 
         int arr[] = new int[5];
         Scanner sc = new Scanner(System.in);
